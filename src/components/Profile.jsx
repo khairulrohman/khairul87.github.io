@@ -44,7 +44,7 @@ function Profile() {
       {/* ── Left Content ── */}
       <div className="profile-content">
         <p className="profile-eyebrow">Full Stack Developer</p>
-        <h1 className="name">Mohsin <em>Ishfaq</em></h1>
+        <h1 className="name">Khairul <em>Rohman</em></h1>
         <div className="profile-divline"></div>
 
         {/* Typing Role */}
@@ -54,13 +54,7 @@ function Profile() {
         </h3>
 
         <p className="bio text-muted">
-          Highly motivated Full-Stack Web Developer with hands-on experience in
-          building scalable, responsive, and user-focused web applications.
-          Proficient in React.js for crafting dynamic frontends and Node.js for
-          robust backend logic. Solid understanding of database architecture,
-          RESTful API integration, and clean code principles. Backed by practical
-          industry experience through a professional internship, I am passionate
-          about turning complex problems into seamless digital solutions.
+          Data Analyst
         </p>
 
         {/* Tech Tags */}
