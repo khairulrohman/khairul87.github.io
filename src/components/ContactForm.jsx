@@ -28,7 +28,7 @@ const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
             from_name: formData.name,
             from_email: formData.email,
             message: formData.message,
-            to_name: 'Mohsin Ishfaq', // Aapka naam
+            to_name: 'Khairul Rohman', // Aapka naam
         };
 
         emailjs.send(serviceID, templateID, templateParams, publicKey)
@@ -73,9 +73,9 @@ const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
                     </div>
 
                     <div style={{ marginTop: '2rem', display: 'flex', flexDirection: 'column', gap: '0.8rem', color: 'var(--text-muted)' }}>
-                        <p><strong>Email:</strong> mohsinishfaq500@gmail.com</p>
-                        <p><strong>Phone:</strong> +92-343-552-0230</p>
-                        <p><strong>Location:</strong> Rawalpindi, Punjab, Pakistan</p>
+                        <p><strong>Email:</strong> khairulrohman87@gmail.com</p>
+                        <p><strong>Phone:</strong> +62-812-1997-1941</p>
+                        <p><strong>Location:</strong> Jakarta, Indonesia</p>
                     </div>
                 </div>
 
