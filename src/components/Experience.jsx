@@ -53,6 +53,17 @@ const Experience = () => {
               <li>Developed Power BI dashboards to monitor credit quality, approval rates, and portfolio performance, supporting risk monitoring and management decision-making.</li>
               <li>Identified operational bottlenecks and translated analytical findings into actionable recommendations to improve process efficiency and risk monitoring.</li>
             </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="timeline">
+        <div className="timeline-item">
+
+          {/* Top Accent Bar */}
+          <div className="card-accent-bar"></div>
+
+          <div className="card-body">
 
             {/* Header Row */}
             <div className="job-header">
@@ -91,10 +102,10 @@ const Experience = () => {
               <li>Developed Power BI dashboards to monitor credit quality, approval rates, and portfolio performance, supporting risk monitoring and management decision-making.</li>
               <li>Identified operational bottlenecks and translated analytical findings into actionable recommendations to improve process efficiency and risk monitoring.</li>
             </ul>
-            
           </div>
         </div>
       </div>
+
     </section>
   );
 };
