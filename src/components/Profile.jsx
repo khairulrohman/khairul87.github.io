@@ -69,11 +69,13 @@ function Profile() {
           <a href="#contact" className="social-btn primary">
             <Mail size={18} /> Contact Me
           </a>
-          <a href={'${import.meta.env.BASE_URL}CV_Khairul-Rohman_Data-Analyst.pdf'}
+          <a
+  href={`${import.meta.env.BASE_URL}CV_Khairul-Rohman_Data-Analyst.pdf`}
   download="Khairul_Rohman_CV.pdf"
-  className="social-btn secondary">
-            Download CV
-          </a>
+  className="social-btn secondary"
+>
+  Download CV
+</a>
           <a href="" className="social-icon" target="_blank" rel="noreferrer">
             <Github size={22} />
           </a>
