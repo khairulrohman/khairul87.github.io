@@ -69,7 +69,7 @@ function Profile() {
           <a href="#contact" className="social-btn primary">
             <Mail size={18} /> Contact Me
           </a>
-          <a href="/CV_KhairulRohman_Data Analyst.pdf" download className="social-btn secondary">
+          <a href="/CV_Khairul-Rohman_Data-Analyst.pdf" download className="social-btn secondary">
             ↓ Download CV
           </a>
           <a href="" className="social-icon" target="_blank" rel="noreferrer">
