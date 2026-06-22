@@ -9,10 +9,10 @@ const categories = [
         badgeBg: 'rgba(139,92,246,0.12)',
         badgeBorder: 'rgba(139,92,246,0.3)',
         skills: [
-            { name: 'Power BI',    emoji: '⚛️', level: 'Expert' },
-            { name: 'Google Data Studio',  emoji: '🟨', level: 'Expert' },
-            { name: 'Excel Dashboard',emoji: '🎨', level: 'Expert' },
-            { name: 'Tableau',       emoji: '🔄', level: 'Mid'    },
+            { name: 'Power BI',    emoji: '⚛️' },
+            { name: 'Google Data Studio',  emoji: '🟨' },
+            { name: 'Excel Dashboard',emoji: '🎨' },
+            { name: 'Tableau',       emoji: '🔄'    },
         ]
     },
     {
@@ -23,8 +23,8 @@ const categories = [
         badgeBg: 'rgba(16,185,129,0.12)',
         badgeBorder: 'rgba(16,185,129,0.3)',
         skills: [
-            { name: 'Python',    emoji: '🟩', level: 'Expert' },
-            { name: 'Apps Script', emoji: '⚡', level: 'Expert' },
+            { name: 'Python',    emoji: '🟩' },
+            { name: 'Apps Script', emoji: '⚡' },
         ]
     },
     {
@@ -35,8 +35,8 @@ const categories = [
         badgeBg: 'rgba(249,115,22,0.12)',
         badgeBorder: 'rgba(249,115,22,0.3)',
         skills: [
-            { name: 'SQL Server',  emoji: '🍃', level: 'Expert' },
-            { name: 'MySQL', emoji: '🍀', level: 'Expert' },
+            { name: 'SQL Server',  emoji: '🍃' },
+            { name: 'MySQL', emoji: '🍀' },
         ]
     },
     {
@@ -47,8 +47,8 @@ const categories = [
         badgeBg: 'rgba(59,130,246,0.12)',
         badgeBorder: 'rgba(59,130,246,0.3)',
         skills: [
-            { name: 'Google Sheet', emoji: '🐙', level: 'Expert' },
-            { name: 'Excel',    emoji: '📮', level: 'Mid'    },
+            { name: 'Google Sheet', emoji: '🐙' },
+            { name: 'Excel',    emoji: '📮'  },
         ]
     },
 ];

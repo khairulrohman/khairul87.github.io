@@ -4,8 +4,8 @@ import './Projects.css';
 const projects = [
     {
         id: 1,
-        title: 'Al-Quran Islamic Institute Website',
-        description: 'A complete, responsive web platform built for an Islamic institute. Features dynamic course enrollment, event management, integrated prayer timings, and a clean user dashboard for students and admins.',
+        title: 'Marketing Campaign Performance Analysis Using SQL',
+        description: 'Analyzed marketing campaign performance using SQL to identify the most profitable channels and campaigns. Delivered data-driven recommendations to optimize budget allocation based on key metrics such as ROAS, CTR, and conversion rate.',
         tags: ['React.js', 'Node.js', 'Express', 'Tailwind CSS', 'MongoDB'],
         gradient: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
         accent: '#3b82f6',
@@ -17,8 +17,8 @@ const projects = [
     },
     {
         id: 2,
-        title: 'BIIT Academic Calendar & Scheduler',
-        description: 'An academic management tool featuring automated event scheduling, exam/holiday tracking, and role-based access control for students and faculty with strict version and flow management.',
+        title: 'Automated ETL Pipeline',
+        description: 'Built a data integration and cleansing pipeline to consolidate customer data from multiple systems into a reliable single source of truth.',
         tags: ['React.js', 'Node.js', 'Express', 'SQL / Database Design'],
         gradient: 'linear-gradient(135deg, #1a0533 0%, #2d1b69 50%, #4c1d95 100%)',
         accent: '#8b5cf6',
@@ -30,8 +30,8 @@ const projects = [
     },
     {
         id: 3,
-        title: 'Pharmacy Management System',
-        description: 'A robust web application designed to track medicine stock, expiry dates, and billing. Features real-time inventory updates, search/filter algorithms, and low-stock alerts.',
+        title: 'Credit Risk Analysis',
+        description: 'Developed a credit risk profiling model to estimate the probability of default and support more informed lending decisions.',
         tags: ['React.js', 'Node.js', 'MongoDB', 'Context API / Redux'],
         gradient: 'linear-gradient(135deg, #052e16 0%, #065f46 50%, #0d9488 100%)',
         accent: '#10b981',
@@ -43,8 +43,8 @@ const projects = [
     },
     {
         id: 4,
-        title: 'Sports Inventory Management System',
-        description: 'A web-based system for tracking and managing sports equipment issuance, returns, and stock status. Includes comprehensive data logging and analytical reporting for inventory audits.',
+        title: 'Customer Retention & Churn Insight',
+        description: 'Analyzed customer churn drivers and developed data-driven retention strategies to reduce customer attrition.',
         tags: ['React.js', 'Node.js', 'Express', 'Bootstrap / Material-UI'],
         gradient: 'linear-gradient(135deg, #1c0a00 0%, #7c2d12 50%, #c2410c 100%)',
         accent: '#f97316',
