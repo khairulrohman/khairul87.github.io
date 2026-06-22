@@ -91,7 +91,7 @@ function Profile() {
           <div className="animated-border"></div>
           <div className="avatar-placeholder" style={{ padding: '6px' }}>
             <img
-              src="/KH.jpg"
+              src={`${import.meta.env.BASE_URL}KH.jpg`}
               alt="Khairul Rohman"
               style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }}
             />
