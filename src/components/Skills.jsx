@@ -2,33 +2,29 @@ import './Skills.css';
 
 const categories = [
     {
-        title: 'Frontend',
+        title: 'BI Tools',
         color: '#a78bfa',
         bg: 'rgba(139,92,246,0.1)',
         border: 'rgba(139,92,246,0.25)',
         badgeBg: 'rgba(139,92,246,0.12)',
         badgeBorder: 'rgba(139,92,246,0.3)',
         skills: [
-            { name: 'React.js',    emoji: '⚛️', level: 'Expert' },
-            { name: 'JavaScript',  emoji: '🟨', level: 'Expert' },
-            { name: 'Tailwind CSS',emoji: '🎨', level: 'Expert' },
-            { name: 'Redux',       emoji: '🔄', level: 'Mid'    },
-            { name: 'HTML5/CSS3',  emoji: '🌐', level: 'Expert' },
-            { name: 'Context API', emoji: '🧠', level: 'Mid'    },
+            { name: 'Power BI',    emoji: '⚛️', level: 'Expert' },
+            { name: 'Google Data Studio',  emoji: '🟨', level: 'Expert' },
+            { name: 'Excel Dashboard',emoji: '🎨', level: 'Expert' },
+            { name: 'Tableau',       emoji: '🔄', level: 'Mid'    },
         ]
     },
     {
-        title: 'Backend',
+        title: 'Programming',
         color: '#34d399',
         bg: 'rgba(16,185,129,0.1)',
         border: 'rgba(16,185,129,0.25)',
         badgeBg: 'rgba(16,185,129,0.12)',
         badgeBorder: 'rgba(16,185,129,0.3)',
         skills: [
-            { name: 'Node.js',    emoji: '🟩', level: 'Expert' },
-            { name: 'Express.js', emoji: '⚡', level: 'Expert' },
-            { name: 'REST API',   emoji: '🔌', level: 'Expert' },
-            { name: 'JWT Auth',   emoji: '🔑', level: 'Mid'    },
+            { name: 'Python',    emoji: '🟩', level: 'Expert' },
+            { name: 'Apps Script', emoji: '⚡', level: 'Expert' },
         ]
     },
     {
@@ -39,23 +35,20 @@ const categories = [
         badgeBg: 'rgba(249,115,22,0.12)',
         badgeBorder: 'rgba(249,115,22,0.3)',
         skills: [
-            { name: 'MongoDB',  emoji: '🍃', level: 'Expert' },
-            { name: 'Mongoose', emoji: '🍀', level: 'Expert' },
-            { name: 'MySQL',    emoji: '🗄️', level: 'Mid'    },
+            { name: 'SQL Server',  emoji: '🍃', level: 'Expert' },
+            { name: 'MySQL', emoji: '🍀', level: 'Expert' },
         ]
     },
     {
-        title: 'Dev Tools',
+        title: 'Others Tools',
         color: '#60a5fa',
         bg: 'rgba(59,130,246,0.1)',
         border: 'rgba(59,130,246,0.25)',
         badgeBg: 'rgba(59,130,246,0.12)',
         badgeBorder: 'rgba(59,130,246,0.3)',
         skills: [
-            { name: 'Git/GitHub', emoji: '🐙', level: 'Expert' },
-            { name: 'Postman',    emoji: '📮', level: 'Mid'    },
-            { name: 'Vite',       emoji: '⚡', level: 'Mid'    },
-            { name: 'NPM/Yarn',   emoji: '📦', level: 'Mid'    },
+            { name: 'Google Sheet', emoji: '🐙', level: 'Expert' },
+            { name: 'Excel',    emoji: '📮', level: 'Mid'    },
         ]
     },
 ];

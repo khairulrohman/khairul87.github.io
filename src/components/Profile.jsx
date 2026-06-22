@@ -3,10 +3,9 @@ import { Github, Linkedin, Mail, Smartphone } from 'lucide-react';
 import './Profile.css';
 
 const roles = [
-  'Full Stack Developer',
-  'React.js Developer',
-  'Node.js Developer',
-  'UI/UX Enthusiast',
+  'Data Analyst',
+  'Business Intelligence',
+  'Power BI Developer',
 ];
 
 function Profile() {
@@ -88,8 +87,8 @@ function Profile() {
           <div className="animated-border"></div>
           <div className="avatar-placeholder" style={{ padding: '6px' }}>
             <img
-              src="/Mohsin.jpeg"
-              alt="Mohsin Ishfaq"
+              src="/KH.jpg"
+              alt="Khairul Rohman"
               style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }}
             />
           </div>
