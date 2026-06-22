@@ -43,7 +43,7 @@ function Profile() {
 
       {/* ── Left Content ── */}
       <div className="profile-content">
-        <p className="profile-eyebrow">Full Stack Developer</p>
+        <p className="profile-eyebrow">Data Analyst</p>
         <h1 className="name">Khairul <em>Rohman</em></h1>
         <div className="profile-divline"></div>
 
@@ -59,12 +59,10 @@ function Profile() {
 
         {/* Tech Tags */}
         <div className="profile-tags">
-          <span className="profile-tag">React.js</span>
-          <span className="profile-tag">Node.js</span>
-          <span className="profile-tag">MongoDB</span>
-          <span className="profile-tag">Express</span>
-          <span className="profile-tag">Tailwind CSS</span>
-          <span className="profile-tag">REST API</span>
+          <span className="profile-tag">SQL</span>
+          <span className="profile-tag">Power BI</span>
+          <span className="profile-tag">Python</span>
+          <span className="profile-tag">Excel</span>
         </div>
 
         {/* Buttons & Icons */}
@@ -72,16 +70,13 @@ function Profile() {
           <a href="#contact" className="social-btn primary">
             <Mail size={18} /> Contact Me
           </a>
-          <a href="/Mohsin_CV.pdf" download className="social-btn secondary">
+          <a href="/CV_Khairul Rohman_Data Analyst.pdf" download className="social-btn secondary">
             ↓ Download CV
           </a>
-          <a href="https://github.com/Mosiiikhan" className="social-icon" target="_blank" rel="noreferrer">
+          <a href="" className="social-icon" target="_blank" rel="noreferrer">
             <Github size={22} />
           </a>
-          <a href="https://www.linkedin.com/in/mohsin-ishfaq-2226b6299" className="social-icon" target="_blank" rel="noreferrer">
-            <Linkedin size={22} />
-          </a>
-          <a href="tel:+923435520230" className="social-icon">
+          <a href="tel:+6281219971941" className="social-icon">
             <Smartphone size={22} />
           </a>
         </div>
@@ -100,10 +95,10 @@ function Profile() {
           </div>
         </div>
         <div className="floating-badge badge-1 glass-card">
-          <span>🌐</span> Web Developer
+          <span>🌐</span> Data Analyst
         </div>
         <div className="floating-badge badge-2 glass-card">
-          <span>⚡</span> React.js
+          <span>⚡</span> Business Intelligence
         </div>
       </div>
 

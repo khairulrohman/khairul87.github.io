@@ -27,11 +27,11 @@ const Education = () => {
             </div>
 
             {/* Year Badge */}
-            <span className="edu-year-badge">2022 – 2026</span>
+            <span className="edu-year-badge">2006 – 2010</span>
 
             {/* University */}
             <p className="edu-uni">
-              Arid Agriculture University, Rawalpindi, Pakistan
+              Budi Luhur University, Jakarta, Indonesia
             </p>
 
             <div className="edu-divider"></div>
@@ -39,12 +39,12 @@ const Education = () => {
             {/* Coursework */}
             <p className="edu-cw-label">Relevant Coursework</p>
             <div className="edu-tags">
-              <span className="edu-tag">Web Technology</span>
-              <span className="edu-tag">Web Engineering</span>
-              <span className="edu-tag">Data Structures & Algorithms</span>
-              <span className="edu-tag">Object-Oriented Programming</span>
+              <span className="edu-tag">Data Analyst</span>
               <span className="edu-tag">Database Systems</span>
-              <span className="edu-tag">Software Engineering</span>
+              <span className="edu-tag">Data Mining</span>
+              <span className="edu-tag">Data Warehouse</span>
+              <span className="edu-tag">Business Intelligence</span>
+              <span className="edu-tag">Data Visualization</span>  
             </div>
 
           </div>
