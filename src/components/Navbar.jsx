@@ -7,7 +7,6 @@ const navLinks = [
     { label: 'Experience', id: 'experience' },
     { label: 'Projects',   id: 'projects'   },
     { label: 'Education',  id: 'education'  },
-    { label: 'Contact',    id: 'contact'    },
 ];
 
 function Navbar() {
@@ -55,7 +54,7 @@ function Navbar() {
             <div className="navbar-container">
 
                 <button className="navbar-logo gradient-text" onClick={() => goTo('profile')}>
-                    Mohsin<span className="logo-dot">.</span>
+                    Khairul<span className="logo-dot">.</span>
                 </button>
 
                 <ul className="navbar-links">
@@ -70,10 +69,6 @@ function Navbar() {
                         </li>
                     ))}
                 </ul>
-
-                <button className="hire-btn" onClick={() => goTo('contact')}>
-                    Hire Me
-                </button>
 
                 <button
                     className={menuOpen ? 'hamburger open' : 'hamburger'}
