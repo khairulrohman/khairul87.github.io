@@ -31,7 +31,7 @@ const Education = () => {
 
             {/* University */}
             <p className="edu-uni">
-              Budi Luhur University, Jakarta, Indonesia
+              Budi Luhur University, Jakarta
             </p>
 
             <div className="edu-divider"></div>
