@@ -7,10 +7,10 @@ const projects = [
         title: 'Marketing Campaign Performance Analysis Using SQL',
         description: 'Analyzed marketing campaign performance using SQL to identify the most profitable channels and campaigns. Delivered data-driven recommendations to optimize budget allocation based on key metrics such as ROAS, CTR, and conversion rate.',
         tags: ['SQL', 'SQL Server'],
-        gradient: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
-        accent: '#3b82f6',
-        iconBg: 'linear-gradient(135deg, #1e40af, #3b82f6)',
-        iconShadow: '#3b82f6',
+        gradient: 'linear-gradient(135deg, #052e16 0%, #065f46 50%, #0d9488 100%)',
+        accent: '#10b981',
+        iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
+        iconShadow: '#10b981',
         iconImage: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg',
         link: '#',
         github: '#'
@@ -20,10 +20,10 @@ const projects = [
         title: 'Automated ETL Pipeline',
         description: 'Built a data integration and cleansing pipeline to consolidate customer data from multiple systems into a reliable single source of truth.',
         tags: ['SQL', 'SQL Server'],
-        gradient: 'linear-gradient(135deg, #1a0533 0%, #2d1b69 50%, #4c1d95 100%)',
-        accent: '#8b5cf6',
-        iconBg: 'linear-gradient(135deg, #4c1d95, #8b5cf6)',
-        iconShadow: '#8b5cf6',
+        gradient: 'linear-gradient(135deg, #052e16 0%, #065f46 50%, #0d9488 100%)',
+        accent: '#10b981',
+        iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
+        iconShadow: '#10b981',
         iconImage: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg',
         link: '#',
         github: '#'
@@ -37,7 +37,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconEmoji: '💊',
+        iconImage: 'https://www.svgrepo.com/show/354428/tableau-icon.svg',
         link: '#',
         github: '#'
     },
@@ -50,12 +50,12 @@ const projects = [
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
-        iconEmoji: '🏆',
+        iconImage: 'https://www.svgrepo.com/show/354428/tableau-icon.svg',
         link: '#',
         github: '#'
     },
     {
-        id: 4,
+        id: 5,
         title: 'Automated Data Pipeline',
         description: 'Automated data consolidation and cleansing solution that integrates 10+ data sources into a centralized real-time dashboard, reducing processing time by 95% and improving data accuracy to 99.2%.',
         tags: ['Apps Script', 'Google Sheet'],
@@ -63,12 +63,12 @@ const projects = [
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
-        iconEmoji: '🏆',
+        iconImage: 'https://cdn.simpleicons.org/googleappsscript',
         link: '#',
         github: '#'
     },
     {
-        id: 4,
+        id: 6,
         title: 'Automated Collection System',
         description: 'Payment reminder automation system that automatically detects due dates and sends personalized email notifications, reducing manual effort by 95%.',
         tags: ['Apps Script', 'Google Sheet'],
@@ -76,12 +76,12 @@ const projects = [
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
-        iconEmoji: '🏆',
+        iconImage: 'https://cdn.simpleicons.org/googleappsscript',
         link: '#',
         github: '#'
     },
     {
-        id: 4,
+        id: 7,
         title: 'Auto Certificate Express',
         description: 'Automated certificate generation and mass email distribution platform that reduced processing time by over 95%, eliminated manual errors, and improved participant experience.',
         tags: ['Apps Script', 'Google Sheet', 'Google Slide'],
@@ -89,7 +89,7 @@ const projects = [
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
-        iconEmoji: '🏆',
+        iconImage: 'https://cdn.simpleicons.org/googleappsscript',
         link: '#',
         github: '#'
     }
