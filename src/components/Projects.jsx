@@ -11,7 +11,7 @@ const projects = [
         accent: '#3b82f6',
         iconBg: 'linear-gradient(135deg, #1e40af, #3b82f6)',
         iconShadow: '#3b82f6',
-        iconImage: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg',
+        iconImage: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg',
         link: '#',
         github: '#'
     },
@@ -24,7 +24,7 @@ const projects = [
         accent: '#8b5cf6',
         iconBg: 'linear-gradient(135deg, #4c1d95, #8b5cf6)',
         iconShadow: '#8b5cf6',
-        iconEmoji: '📅',
+        iconImage: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg',
         link: '#',
         github: '#'
     },
