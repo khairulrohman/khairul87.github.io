@@ -11,7 +11,7 @@ const projects = [
         accent: '#3b82f6',
         iconBg: 'linear-gradient(135deg, #1e40af, #3b82f6)',
         iconShadow: '#3b82f6',
-        iconEmoji: '🕌',
+        iconImage: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg',
         link: '#',
         github: '#'
     },
@@ -114,7 +114,25 @@ function Projects() {
                                     boxShadow: `0 8px 32px ${project.iconShadow}80, 0 0 0 1px ${project.iconShadow}30`,
                                 }}
                             >
-                                <span className="project-icon">{project.iconEmoji}</span>
+                                <div
+    className="project-icon-wrapper"
+    style={{
+        background: project.iconBg,
+        boxShadow: `0 8px 32px ${project.iconShadow}80, 0 0 0 1px ${project.iconShadow}30`,
+    }}
+>
+    {project.iconImage ? (
+        <img
+            src={project.iconImage}
+            alt={project.title}
+            className="project-icon-image"
+        />
+    ) : (
+        <span className="project-icon">
+            {project.iconEmoji}
+        </span>
+    )}
+</div>
                             </div>
                             <div className="banner-glow" style={{ background: project.accent }}></div>
                         </div>
