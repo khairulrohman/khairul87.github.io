@@ -2,7 +2,7 @@ import { ExternalLink, Github } from 'lucide-react';
 import './Projects.css';
 import sql from '../assets/icons/azuresqldatabase-original.svg';
 import tableau from '../assets/icons/Tableau.svg';
-import pyhton from '../assets/icons/Python.svg';
+import python from '../assets/icons/Python.svg';
 import apps from '../assets/icons/Apps.svg';
 
 
