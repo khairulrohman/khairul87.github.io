@@ -53,6 +53,45 @@ const projects = [
         iconEmoji: '🏆',
         link: '#',
         github: '#'
+    },
+    {
+        id: 4,
+        title: 'Automated Data Pipeline',
+        description: 'Automated data consolidation and cleansing solution that integrates 10+ data sources into a centralized real-time dashboard, reducing processing time by 95% and improving data accuracy to 99.2%.',
+        tags: ['React.js', 'Node.js', 'Express', 'Bootstrap / Material-UI'],
+        gradient: 'linear-gradient(135deg, #1c0a00 0%, #7c2d12 50%, #c2410c 100%)',
+        accent: '#f97316',
+        iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
+        iconShadow: '#f97316',
+        iconEmoji: '🏆',
+        link: '#',
+        github: '#'
+    },
+    {
+        id: 4,
+        title: 'Automated Collection System',
+        description: 'Payment reminder automation system that automatically detects due dates and sends personalized email notifications, reducing manual effort by 95%.',
+        tags: ['React.js', 'Node.js', 'Express', 'Bootstrap / Material-UI'],
+        gradient: 'linear-gradient(135deg, #1c0a00 0%, #7c2d12 50%, #c2410c 100%)',
+        accent: '#f97316',
+        iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
+        iconShadow: '#f97316',
+        iconEmoji: '🏆',
+        link: '#',
+        github: '#'
+    },
+    {
+        id: 4,
+        title: 'Auto Certificate Express',
+        description: 'Automated certificate generation and mass email distribution platform that reduced processing time by over 95%, eliminated manual errors, and improved participant experience.',
+        tags: ['React.js', 'Node.js', 'Express', 'Bootstrap / Material-UI'],
+        gradient: 'linear-gradient(135deg, #1c0a00 0%, #7c2d12 50%, #c2410c 100%)',
+        accent: '#f97316',
+        iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
+        iconShadow: '#f97316',
+        iconEmoji: '🏆',
+        link: '#',
+        github: '#'
     }
 ];
 
