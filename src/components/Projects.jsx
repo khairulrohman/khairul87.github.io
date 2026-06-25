@@ -1,6 +1,10 @@
 import { ExternalLink, Github } from 'lucide-react';
 import './Projects.css';
-import tableauLogo from '../assets/icons/soundcharts.svg';
+import sql from '../assets/icons/azuresqldatabase-original.svg';
+import tableau from '../assets/icons/Tableau.svg';
+import pyhton from '../assets/icons/Python.svg';
+import apps from '../assets/icons/Apps.svg';
+
 
 const projects = [
     {
@@ -12,7 +16,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: tableauLogo,
+        iconImage: sql,
         link: '#',
         github: '#'
     },
@@ -25,7 +29,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg',
+        iconImage: sql,
         link: '#',
         github: '#'
     },
@@ -38,7 +42,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg',
+        iconImage: python,
         link: '#',
         github: '#'
     },
@@ -51,7 +55,7 @@ const projects = [
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
-        iconImage: 'https://www.svgrepo.com/show/354428/tableau-icon.svg',
+        iconImage: tableau,
         link: '#',
         github: '#'
     },
@@ -64,7 +68,7 @@ const projects = [
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
-        iconImage: 'https://cdn.simpleicons.org/googleappsscript',
+        iconImage: apps,
         link: '#',
         github: '#'
     },
@@ -77,7 +81,7 @@ const projects = [
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
-        iconImage: 'https://cdn.simpleicons.org/googleappsscript',
+        iconImage: apps,
         link: '#',
         github: '#'
     },
@@ -90,7 +94,7 @@ const projects = [
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
-        iconImage: 'https://cdn.simpleicons.org/googleappsscript',
+        iconImage: apps,
         link: '#',
         github: '#'
     }
