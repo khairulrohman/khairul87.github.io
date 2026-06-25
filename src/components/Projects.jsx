@@ -136,15 +136,6 @@ function Projects() {
 
                         <div className="project-links" style={{ '--accent': project.accent }}>
                             <a
-                                href={project.github}
-                                className="proj-btn"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <Github size={16} />
-                                Code
-                            </a>
-                            <a
                                 href={project.link}
                                 className="proj-btn proj-btn-primary"
                                 style={{ background: project.accent, boxShadow: `0 4px 14px ${project.accent}40` }}
