@@ -1,5 +1,6 @@
 import { ExternalLink, Github } from 'lucide-react';
 import './Projects.css';
+import tableauLogo from '../assets/icons/soundcharts.svg';
 
 const projects = [
     {
@@ -11,7 +12,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg',
+        iconImage: tableauLogo,
         link: '#',
         github: '#'
     },
@@ -37,7 +38,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: 'https://www.svgrepo.com/show/354428/tableau-icon.svg',
+        iconImage: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg',
         link: '#',
         github: '#'
     },
