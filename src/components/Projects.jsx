@@ -6,7 +6,7 @@ const projects = [
         id: 1,
         title: 'Marketing Campaign Performance Analysis Using SQL',
         description: 'Analyzed marketing campaign performance using SQL to identify the most profitable channels and campaigns. Delivered data-driven recommendations to optimize budget allocation based on key metrics such as ROAS, CTR, and conversion rate.',
-        tags: ['React.js', 'Node.js', 'Express', 'Tailwind CSS', 'MongoDB'],
+        tags: ['SQL', 'SQL Server'],
         gradient: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
         accent: '#3b82f6',
         iconBg: 'linear-gradient(135deg, #1e40af, #3b82f6)',
@@ -19,7 +19,7 @@ const projects = [
         id: 2,
         title: 'Automated ETL Pipeline',
         description: 'Built a data integration and cleansing pipeline to consolidate customer data from multiple systems into a reliable single source of truth.',
-        tags: ['React.js', 'Node.js', 'Express', 'SQL / Database Design'],
+        tags: ['SQL', 'SQL Server'],
         gradient: 'linear-gradient(135deg, #1a0533 0%, #2d1b69 50%, #4c1d95 100%)',
         accent: '#8b5cf6',
         iconBg: 'linear-gradient(135deg, #4c1d95, #8b5cf6)',
@@ -32,7 +32,7 @@ const projects = [
         id: 3,
         title: 'Credit Risk Analysis',
         description: 'Developed a credit risk profiling model to estimate the probability of default and support more informed lending decisions.',
-        tags: ['React.js', 'Node.js', 'MongoDB', 'Context API / Redux'],
+        tags: ['Python', 'Tableau'],
         gradient: 'linear-gradient(135deg, #052e16 0%, #065f46 50%, #0d9488 100%)',
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
@@ -45,7 +45,7 @@ const projects = [
         id: 4,
         title: 'Customer Retention & Churn Insight',
         description: 'Analyzed customer churn drivers and developed data-driven retention strategies to reduce customer attrition.',
-        tags: ['React.js', 'Node.js', 'Express', 'Bootstrap / Material-UI'],
+        tags: ['Tableau'],
         gradient: 'linear-gradient(135deg, #1c0a00 0%, #7c2d12 50%, #c2410c 100%)',
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
@@ -58,7 +58,7 @@ const projects = [
         id: 4,
         title: 'Automated Data Pipeline',
         description: 'Automated data consolidation and cleansing solution that integrates 10+ data sources into a centralized real-time dashboard, reducing processing time by 95% and improving data accuracy to 99.2%.',
-        tags: ['React.js', 'Node.js', 'Express', 'Bootstrap / Material-UI'],
+        tags: ['Apps Script', 'Google Sheet'],
         gradient: 'linear-gradient(135deg, #1c0a00 0%, #7c2d12 50%, #c2410c 100%)',
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
@@ -71,7 +71,7 @@ const projects = [
         id: 4,
         title: 'Automated Collection System',
         description: 'Payment reminder automation system that automatically detects due dates and sends personalized email notifications, reducing manual effort by 95%.',
-        tags: ['React.js', 'Node.js', 'Express', 'Bootstrap / Material-UI'],
+        tags: ['Apps Script', 'Google Sheet'],
         gradient: 'linear-gradient(135deg, #1c0a00 0%, #7c2d12 50%, #c2410c 100%)',
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
@@ -84,7 +84,7 @@ const projects = [
         id: 4,
         title: 'Auto Certificate Express',
         description: 'Automated certificate generation and mass email distribution platform that reduced processing time by over 95%, eliminated manual errors, and improved participant experience.',
-        tags: ['React.js', 'Node.js', 'Express', 'Bootstrap / Material-UI'],
+        tags: ['Apps Script', 'Google Sheet', 'Google Slide'],
         gradient: 'linear-gradient(135deg, #1c0a00 0%, #7c2d12 50%, #c2410c 100%)',
         accent: '#f97316',
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
@@ -152,7 +152,7 @@ function Projects() {
                                 rel="noreferrer"
                             >
                                 <ExternalLink size={16} />
-                                Live Demo
+                                View Project
                             </a>
                         </div>
 
