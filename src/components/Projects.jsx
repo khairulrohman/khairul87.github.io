@@ -4,6 +4,7 @@ import sql from '../assets/icons/azuresqldatabase-original.svg';
 import tableau from '../assets/icons/Tableau.svg';
 import python from '../assets/icons/Python.svg';
 import apps from '../assets/icons/Apps.svg';
+import bi from '../assets/icons/powerbi.svg';
 
 
 const projects = [
@@ -16,7 +17,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: sql,
+        iconImage: bi,
         link: '#',
         github: '#'
     },
@@ -29,7 +30,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: sql,
+        iconImage: bi,
         link: '#',
         github: '#'
     },
@@ -42,7 +43,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: sql,
+        iconImage: bi,
         link: '#',
         github: '#'
     },
@@ -55,7 +56,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: sql,
+        iconImage: bi,
         link: '#',
         github: '#'
     },
