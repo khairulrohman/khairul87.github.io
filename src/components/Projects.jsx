@@ -18,7 +18,7 @@ const projects = [
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
         iconImage: bi,
-        link: '#',
+        link: 'https://app.powerbi.com/view?r=eyJrIjoiMWI3N2E5ZmItN2Q0NC00ZDJmLThmZGItZTZmMTBmOTliMzI1IiwidCI6ImFlYTgxMzk3LTQ5MmUtNDRiYy1iYWM5LTgzN2Q3OWU4YTc4YSJ9',
         github: '#'
     },
     {
@@ -95,7 +95,7 @@ const projects = [
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
-        iconImage: python,
+        iconImage: bi,
         link: '#',
         github: '#'
     },
@@ -212,7 +212,7 @@ function Projects() {
 
                         <div className="project-links" style={{ '--accent': project.accent }}>
                             <a
-                                href="https://app.powerbi.com/view?r=eyJrIjoiMWI3N2E5ZmItN2Q0NC00ZDJmLThmZGItZTZmMTBmOTliMzI1IiwidCI6ImFlYTgxMzk3LTQ5MmUtNDRiYy1iYWM5LTgzN2Q3OWU4YTc4YSJ9"
+                                href={project.link}
                                 className="proj-btn proj-btn-primary"
                                 style={{ background: project.accent, boxShadow: `0 4px 14px ${project.accent}40` }}
                                 target="_blank"
