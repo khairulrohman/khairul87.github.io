@@ -18,7 +18,7 @@ const projects = [
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
         iconImage: bi,
-        link: 'https://app.powerbi.com/view?r=eyJrIjoiMWI3N2E5ZmItN2Q0NC00ZDJmLThmZGItZTZmMTBmOTliMzI1IiwidCI6ImFlYTgxMzk3LTQ5MmUtNDRiYy1iYWM5LTgzN2Q3OWU4YTc4YSJ9',
+        link: 'https://app.powerbi.com/view?r=eyJrIjoiY2U4ZjdkNWUtMTIxYi00ZDBmLTllMWUtMzZhZjE5OTBlNDg2IiwidCI6ImFlYTgxMzk3LTQ5MmUtNDRiYy1iYWM5LTgzN2Q3OWU4YTc4YSJ9',
         github: '#'
     },
     {
@@ -31,7 +31,7 @@ const projects = [
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
         iconImage: bi,
-        link: '#',
+        link: 'https://app.powerbi.com/view?r=eyJrIjoiZTY4M2M1NTEtOGFmMy00YTc3LWFmMjEtZTk3YjdlOGYzZjRjIiwidCI6ImFlYTgxMzk3LTQ5MmUtNDRiYy1iYWM5LTgzN2Q3OWU4YTc4YSJ9',
         github: '#'
     },
     {
@@ -44,7 +44,7 @@ const projects = [
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
         iconImage: bi,
-        link: '#',
+        link: 'https://app.powerbi.com/view?r=eyJrIjoiMzc0YmI0YjctYmFmZC00NDY2LWI1NDYtNzIxOTk5YjcyZmI1IiwidCI6ImFlYTgxMzk3LTQ5MmUtNDRiYy1iYWM5LTgzN2Q3OWU4YTc4YSJ9',
         github: '#'
     },
     {
@@ -57,7 +57,7 @@ const projects = [
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
         iconImage: bi,
-        link: '#',
+        link: 'https://app.powerbi.com/view?r=eyJrIjoiMWI3N2E5ZmItN2Q0NC00ZDJmLThmZGItZTZmMTBmOTliMzI1IiwidCI6ImFlYTgxMzk3LTQ5MmUtNDRiYy1iYWM5LTgzN2Q3OWU4YTc4YSJ9',
         github: '#'
     },
     {
@@ -70,7 +70,7 @@ const projects = [
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
         iconImage: sql,
-        link: '#',
+        link: 'https://drive.google.com/file/d/1xbisueYqvMOE_6UglrlJU0indw9Q6X5g/view?usp=sharing',
         github: '#'
     },
     {
@@ -83,20 +83,20 @@ const projects = [
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
         iconImage: sql,
-        link: '#',
+        link: 'https://drive.google.com/file/d/14P6NW7eZzDGNViW0wPhEyRypIedcnjc2/view?usp=sharing',
         github: '#'
     },
     {
         id: 7,
         title: 'Credit Risk Analysis',
         description: 'Developed a credit risk profiling model to estimate the probability of default and support more informed lending decisions.',
-        tags: ['Python', 'Tableau'],
+        tags: ['Power BI', 'Python'],
         gradient: 'linear-gradient(135deg, #052e16 0%, #065f46 50%, #0d9488 100%)',
         accent: '#10b981',
         iconBg: 'linear-gradient(135deg, #065f46, #10b981)',
         iconShadow: '#10b981',
         iconImage: bi,
-        link: '#',
+        link: 'https://app.powerbi.com/view?r=eyJrIjoiYzliNzk1YmEtMGYwOC00NjUzLTkyMmMtODNiODE2YjZlZDc0IiwidCI6ImFlYTgxMzk3LTQ5MmUtNDRiYy1iYWM5LTgzN2Q3OWU4YTc4YSJ9',
         github: '#'
     },
     {
@@ -109,7 +109,7 @@ const projects = [
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
         iconImage: tableau,
-        link: '#',
+        link: 'https://public.tableau.com/app/profile/khairul.rohman/viz/ProjectCustomerChurnAnalyst/EXPLORATORYDATAANALYSIS',
         github: '#'
     },
     {
@@ -122,7 +122,7 @@ const projects = [
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
         iconImage: apps,
-        link: '#',
+        link: 'https://drive.google.com/file/d/1hGVxq6ww9JgP2DW6V0p5LkxOfu8CqcXH/view?usp=sharing',
         github: '#'
     },
     {
@@ -135,7 +135,7 @@ const projects = [
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
         iconImage: apps,
-        link: '#',
+        link: 'https://drive.google.com/file/d/1AharNo5mbhViAYot6VqtbVGACInQ-R5U/view?usp=sharing',
         github: '#'
     },
     {
@@ -148,7 +148,7 @@ const projects = [
         iconBg: 'linear-gradient(135deg, #7c2d12, #f97316)',
         iconShadow: '#f97316',
         iconImage: apps,
-        link: '#',
+        link: 'https://drive.google.com/file/d/1U0lgeQ4LryRahOvNbznqWDDJ9ePfj6jS/view?usp=sharing',
         github: '#'
     }
 ];
