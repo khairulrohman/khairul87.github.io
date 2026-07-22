@@ -165,35 +165,27 @@ function Projects() {
                     <div key={project.id} className="project-card">
 
                         <div className="project-banner" style={{ background: project.gradient }}>
-                            <div
-                                className="project-icon-wrapper"
-                                style={{
-                                    background: project.iconBg,
-                                    boxShadow: `0 8px 32px ${project.iconShadow}80, 0 0 0 1px ${project.iconShadow}30`,
-                                }}
-                            >
-                                <div
-    className="project-icon-wrapper"
-    style={{
-        background: project.iconBg,
-        boxShadow: `0 8px 32px ${project.iconShadow}80, 0 0 0 1px ${project.iconShadow}30`,
-    }}
->
-    {project.iconImage ? (
-        <img
-            src={project.iconImage}
-            alt={project.title}
-            className="project-icon-image"
-        />
-    ) : (
-        <span className="project-icon">
-            {project.iconEmoji}
-        </span>
-    )}
+    <div
+        className="project-icon-wrapper"
+        style={{
+            background: project.iconBg,
+            boxShadow: `0 8px 32px ${project.iconShadow}80, 0 0 0 1px ${project.iconShadow}30`,
+        }}
+    >
+        {project.iconImage ? (
+            <img
+                src={project.iconImage}
+                alt={project.title}
+                className="project-icon-image"
+            />
+        ) : (
+            <span className="project-icon">
+                {project.iconEmoji}
+            </span>
+        )}
+    </div>
+    <div className="banner-glow" style={{ background: project.accent }}></div>
 </div>
-                            </div>
-                            <div className="banner-glow" style={{ background: project.accent }}></div>
-                        </div>
 
                         <div className="project-body">
                             <h3 className="project-title" style={{ '--accent': project.accent }}>
